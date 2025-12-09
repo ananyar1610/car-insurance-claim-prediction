@@ -8,9 +8,8 @@ from feature_engineering import add_interactions
 from utils import BOOL_COLS
 
 
-# -------------------------------
 # Page configuration
-# -------------------------------
+
 st.set_page_config(
     page_title="Car Insurance Claim Prediction",
     page_icon="🚗",
@@ -23,9 +22,9 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Data Overview", "Prediction"])
 
 
-# -------------------------------
+
 # Helper: load model & encoders
-# -------------------------------
+
 @st.cache_resource
 def load_model(model_path: str):
     return joblib.load(model_path)
@@ -36,7 +35,7 @@ def load_encoders(encoders_path: str):
     return joblib.load(encoders_path)
 
 
-MODEL_PATH = "models/best_model_XGBoost.pkl"  # ensure this file exists from training
+MODEL_PATH = "models/best_model_XGBoost.pkl"  
 ENCODERS_PATH = "models/all_encoders.pkl"
 
 
