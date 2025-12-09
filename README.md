@@ -366,7 +366,7 @@ Ensure your Streamlit app loads these same files.
 
 ---
 
-## 🔁 Reproducibility
+##  Reproducibility
 
 This project follows ML best practices:
 
@@ -386,7 +386,7 @@ This project follows ML best practices:
 
 ---
 
-## ⚠ Limitations & Future Work
+##  Limitations & Future Work
 
 Model trained on a single dataset; generalization requires additional data
 
@@ -404,7 +404,7 @@ Model trained on a single dataset; generalization requires additional data
 
 ---
 
-### 📜 License & Data Usage
+###  License & Data Usage
 
 #### Code:
 Consider using MIT / Apache-2.0 License.
