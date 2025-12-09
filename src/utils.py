@@ -1,1 +1,43 @@
 
+# utils.py
+import os
+from typing import Dict, List
+
+EPS: float = 1e-6
+RANDOM_STATE: int = 42
+
+BOOL_COLS: List[str] = [
+    "is_esc",
+    "is_adjustable_steering",
+    "is_tpms",
+    "is_parking_sensors",
+    "is_parking_camera",
+    "is_front_fog_lights",
+    "is_rear_window_wiper",
+    "is_rear_window_washer",
+    "is_rear_window_defogger",
+    "is_brake_assist",
+    "is_power_door_locks",
+    "is_central_locking",
+    "is_power_steering",
+    "is_driver_seat_height_adjustable",
+    "is_day_night_rear_view_mirror",
+    "is_ecw",
+    "is_speed_alert",
+]
+
+OTHER_CATS: List[str] = [
+    "fuel_type",
+    "rear_brakes_type",
+    "transmission_type",
+    "steering_type",
+    "model",
+    "engine_type",
+    "segment",
+    "area_cluster",
+]
+
+
+def ensure_dir(path: str) -> None:
+    """Create directory if it does not exist."""
+    os.makedirs(path, exist_ok=True)
