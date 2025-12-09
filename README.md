@@ -1,4 +1,4 @@
-# 🚗 Car Insurance Claim Prediction
+#  Car Insurance Claim Prediction
 
 A complete end-to-end **machine learning** and **Streamlit** project that predicts whether a car insurance policy will result in a **claim** in the next policy period, based on customer, vehicle, and policy features.  
 
@@ -11,7 +11,7 @@ This repository is structured as a **deployment-ready ML project** with:
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 > **Streamlit App:** _Add your deployed URL here_  
 > For example:  
@@ -19,7 +19,7 @@ This repository is structured as a **deployment-ready ML project** with:
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [Business Use Cases](#-business-use-cases)
@@ -39,7 +39,7 @@ This repository is structured as a **deployment-ready ML project** with:
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 **Car Insurance Claim Prediction**  
 
@@ -52,7 +52,7 @@ The model output (`is_claim`) is **binary**:
 
 ---
 
-## 💼 Business Use Cases
+##  Business Use Cases
 
 This project is aligned with typical **insurance / risk analytics** use cases: :contentReference[oaicite:1]{index=1}  
 
@@ -70,7 +70,7 @@ This project is aligned with typical **insurance / risk analytics** use cases: :
 
 ---
 
-## 🧠 Skills & Tech Stack
+##  Skills & Tech Stack
 
 **Skills demonstrated**
 
@@ -94,12 +94,12 @@ This project is aligned with typical **insurance / risk analytics** use cases: :
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Source (Provided by GUVI):**  
   `https://drive.google.com/file/d/1RP5vqMcI9SIFW3LsdacdHoTtrAgylC8l/view` :contentReference[oaicite:3]{index=3}  
 
-> ⚠️ **Important:**  
+>  **Important:**  
 > The dataset is **not redistributed** in this repository.  
 > To run the project end-to-end, please **download the dataset** from the above link and place the files in the appropriate data folder (see below).
 
@@ -110,7 +110,7 @@ Typical files:
 
 ---
 
-## 📊 Feature Description
+##  Feature Description
 
 Below is a summary of key features from the project spec. :contentReference[oaicite:4]{index=4}  
 
@@ -186,7 +186,7 @@ All of these are stored as **Yes/No** in raw data and converted to 0/1:
   - `1` → Claim filed  
   - `0` → No claim
 
-## 🧮 Modeling Approach (High-Level)
+##  Modeling Approach (High-Level)
 
 ### **Preprocessing**
 - Map **Yes/No → 1/0** for boolean flags  
@@ -229,13 +229,13 @@ To improve ML performance, several derived features are created:
 
 ---
 
-## 🖥 Streamlit Application
+##  Streamlit Application
 
 The Streamlit app (`app.py`) contains three main sections:
 
 ---
 
-### **1️⃣ Home**
+### **1️ Home**
 - Project introduction  
 - Business context & problem statement  
 - Instructions on how to use the app  
@@ -243,7 +243,7 @@ The Streamlit app (`app.py`) contains three main sections:
 
 ---
 
-### **2️⃣ Data Overview**
+### **2️ Data Overview**
 - Metric cards:  
   - Number of rows  
   - Number of columns  
@@ -256,7 +256,7 @@ The Streamlit app (`app.py`) contains three main sections:
 
 ---
 
-### **3️⃣ Prediction**
+### **3️ Prediction**
 User provides live input through:
 
 - **Categorical fields** → dropdowns using fitted label encoders  
@@ -269,7 +269,7 @@ User provides live input through:
 
 ---
 
-## 🧪 How to Run Locally
+##  How to Run Locally
 
 ### **1. Clone the Repository**
 ```bash
@@ -308,7 +308,7 @@ Open the generated URL (typically → http://localhost:8501).
 
 ---
 
-## 🏋️ How to Train / Retrain the Model
+##  How to Train / Retrain the Model
 
 If you maintain a training script (src/model_training.py):
 
@@ -338,7 +338,7 @@ Ensure your Streamlit app loads these same files.
 
 ---
 
-## 🚀 Deployment on Streamlit Cloud
+##  Deployment on Streamlit Cloud
 
 - Push the following to a public GitHub repo:
 
